@@ -1,0 +1,18 @@
+:root {
+    --primary: #20a9e5;
+    --secondary: #b1e5f2;
+    font-size: 14px;
+}
+
+#logo-image {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-image: url("../img/pattern.png");
+    background-color: var(--primary);
+    background-size: contain;
+    height: 70px;
+}
