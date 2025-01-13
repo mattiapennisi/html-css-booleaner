@@ -1,0 +1,113 @@
+:root {
+    --primary: #20a9e5;
+    --secondary: #b1e5f2;
+    --text-color-2: grey;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+body {
+    font-size: 1.2rem;
+    padding: 0px 20% 0px 20%;
+}
+
+.padding-gen {
+    padding: 5px;
+}
+
+#logo-image {
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+header {
+    background-image: url("../img/pattern.png");
+    background-color: var(--primary);
+    background-size: contain;
+    background-size: 330px;
+    height: 10%;
+}
+
+#main-title {
+    font-size: 3rem;
+    font-weight: 1000;
+    margin-top: 10px;
+}
+
+#author-name {
+    color: var(--primary);
+}
+
+#date {
+    font-size: 0.9rem;
+    padding-top: 3px;
+    margin-bottom: 10px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+#article-data {
+    color: var(--text-color-2);
+}
+
+#article-captions {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.text-bg {
+    background-color: yellow;
+}
+
+.thead-bg {
+    background-color: var(--primary);
+}
+
+.trows-bg {
+    background-color: var(--secondary);
+}
+
+thead {
+    color: #ffffff;
+    text-align: left;
+}
+
+#suggest-section {
+    color: var(--text-color-2);
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin: 20px 0px 20px 5px;
+}
+
+#first-suggest {
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    color: white;
+    margin-top: 10px;
+    padding: 7px;
+    font-size: 1.5rem;
+}
+
+#second-suggest {
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    color: white;
+    margin-top: 10px;
+    padding: 7px;
+    font-size: 1.5rem;
+}
+
+.t-small-column {
+    width: 25%;
+}
+
+.t-large-column {
+    width: 55%;
+}
