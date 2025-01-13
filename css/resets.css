@@ -34,3 +34,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+table, thead, tbody, th, td, tr {
+	border: 0 solid black;
+}

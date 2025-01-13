@@ -59,6 +59,18 @@ header {
     background-color: yellow;
 }
 
+.thead-bg {
+    background-color: var(--primary);
+}
+
+.trows-bg {
+    background-color: var(--secondary);
+}
+
+thead {
+    color: #ffffff;
+}
+
 #suggest-section {
     color: var(--text-color-2);
     font-size: 1.3rem;
