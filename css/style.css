@@ -1,8 +1,12 @@
 :root {
     --primary: #20a9e5;
     --secondary: #b1e5f2;
-    --article-data-color: grey;
+    --text-color-2: grey;
     font-size: 14px;
+}
+
+body {
+    font-size: 1.2rem;
 }
 
 .padding-gen {
@@ -23,7 +27,7 @@ header {
 }
 
 #main-title {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 1000;
 }
 
@@ -40,5 +44,17 @@ header {
 }
 
 #article-data {
-    color: var(--article-data-color);
+    color: var(--text-color-2);
+}
+
+#suggest-section {
+    color: var(--text-color-2);
+}
+
+#first-suggest {
+    background-image: url("../img/monitor.jpg");
+}
+
+#second-suggest {
+    background-image: url("../img/graph.jpg");
 }
