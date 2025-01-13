@@ -1,7 +1,12 @@
 :root {
     --primary: #20a9e5;
     --secondary: #b1e5f2;
+    --article-data-color: grey;
     font-size: 14px;
+}
+
+.padding-gen {
+    padding: 5px;
 }
 
 #logo-image {
@@ -15,4 +20,25 @@ header {
     background-color: var(--primary);
     background-size: contain;
     height: 70px;
+}
+
+#main-title {
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+#author-name {
+    color: var(--primary);
+}
+
+#date {
+    font-size: 0.7rem;
+}
+
+.padding-top {
+    padding-top: 5px;
+}
+
+#article-data {
+    color: var(--article-data-color);
 }
